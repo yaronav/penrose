@@ -98,7 +98,6 @@ jobs:
           name: diagrams
           path: |
             packages/examples/diagrams
-            !packages/examples/diagrams/.git
       - name: Record performance summary
         working-directory: packages/examples/diagrams/
         run: |

@@ -1,8 +1,0 @@
-AutoLabel All
-Scalar c
-Vector u
-
--- right scalar-vector multiplication
-Vector r := rvmul(u,c)
-Label r $\vec{u}c$
-

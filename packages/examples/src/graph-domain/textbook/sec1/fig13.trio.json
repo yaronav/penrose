@@ -1,6 +1,0 @@
-{
-  "substance": "./fig13.substance",
-  "style": ["../../simple-directed-graph.style"],
-  "domain": "../../simple-directed-graph.domain",
-  "variation": "MetalShrew80769"
-}

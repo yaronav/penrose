@@ -1,5 +1,0 @@
-Point J, K, L
-Let JKL := Triangle(J, K, L)
-Let KL := Segment(K, L)
-Segment j := PerpendicularBisector(KL, J)
-AutoLabel All

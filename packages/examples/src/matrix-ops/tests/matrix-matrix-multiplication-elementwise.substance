@@ -1,6 +1,0 @@
-AutoLabel All
-Matrix X, Y
-
--- elementwise matrix-matrix multiplication
-Matrix Z := ewmmmul(X,Y)
-

@@ -1,1 +1,0 @@
-npx roger watch $(PWD)/example.substance $(PWD)/lagrange-bases.domain $(PWD)/lagrange-bases.style

@@ -1,6 +1,0 @@
-{
-  "substance": "./concretedata.substance",
-  "style": ["./linearreg.style"],
-  "domain": "./datapoint.domain",
-  "variation": "PorcellanaFlamingo3169"
-}

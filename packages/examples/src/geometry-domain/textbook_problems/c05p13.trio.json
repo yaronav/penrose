@@ -1,7 +1,0 @@
-{
-  "substance": "./c05p13.substance",
-  "style": ["../euclidean.style", "./c05p13.style"],
-  "domain": "../geometry.domain",
-  "variation": "RationalityZebra567",
-  "excludeWarnings": ["BBoxApproximationWarning"]
-}

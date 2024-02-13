@@ -1,6 +1,0 @@
-{
-  "substance": "./cubic-bezier.substance",
-  "style": ["./offset.style"],
-  "domain": "./curves.domain",
-  "variation": "ClaretPorpoise01614"
-}

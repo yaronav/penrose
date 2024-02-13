@@ -1,8 +1,0 @@
-*.domain.ts
-*.style.ts
-*.substance.ts
-*.svg.ts
-*.trio.ts
-/diagrams/
-/src/registry.ts
-/src/resolver.ts

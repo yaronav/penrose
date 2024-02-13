@@ -1,2 +1,0 @@
-type Vertex
-symmetric predicate Edge(Vertex, Vertex)

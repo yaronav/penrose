@@ -1,8 +1,0 @@
--- right triangle
-Point A, B, C
-Let ABC := Triangle(A, B, C) 
-
-Angle CAB
-CAB := InteriorAngle(C, A, B)
-
-AutoLabel All

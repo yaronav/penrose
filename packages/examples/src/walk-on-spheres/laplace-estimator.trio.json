@@ -1,6 +1,0 @@
-{
-  "substance": "./Laplace.substance",
-  "style": ["./walk-on-spheres.style"],
-  "domain": "./walk-on-spheres.domain",
-  "variation": "LilyDunlin3394"
-}

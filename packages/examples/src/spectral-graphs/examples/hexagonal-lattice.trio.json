@@ -1,6 +1,0 @@
-{
-  "substance": "./hexagonal-lattice.substance",
-  "style": ["../colors.style"],
-  "domain": "../graph.domain",
-  "variation": "StromboliCat61816"
-}

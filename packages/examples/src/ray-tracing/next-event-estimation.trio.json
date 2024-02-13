@@ -1,6 +1,0 @@
-{
-  "substance": "./next-event-estimation.substance",
-  "style": ["./ray-tracing.style"],
-  "domain": "./ray-tracing.domain",
-  "variation": "TransfusionElephant49974"
-}

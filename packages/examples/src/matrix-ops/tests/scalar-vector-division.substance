@@ -1,8 +1,0 @@
-AutoLabel All
-Scalar c
-Vector u
-
--- scalar-vector division
-Vector r := vdiv(u,c)
-Label r $\vec{u}/c$
-

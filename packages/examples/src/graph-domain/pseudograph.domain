@@ -1,3 +1,0 @@
-type Vertex
-type Link
-constructor Edge(Vertex u, Vertex v) -> Link

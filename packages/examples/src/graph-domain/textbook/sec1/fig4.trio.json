@@ -1,6 +1,0 @@
-{
-  "substance": "./fig4.substance",
-  "style": ["../../simple-directed-graph.style"],
-  "domain": "../../simple-directed-graph.domain",
-  "variation": ""
-}

@@ -1,6 +1,0 @@
-{
-  "substance": "./continuousmap.substance",
-  "style": ["./continuousmap.style"],
-  "domain": "./functions.domain",
-  "variation": ""
-}

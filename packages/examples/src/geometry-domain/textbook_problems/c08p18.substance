@@ -1,5 +1,0 @@
-Point A, B, C, D
-Let ABC := Triangle(A, B, C)
-Let BD := Segment(B, D)
-Collinear(A, D, C)
-AutoLabel All

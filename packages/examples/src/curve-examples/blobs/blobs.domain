@@ -1,4 +1,0 @@
-type Manifold
-type Map
-
-constructor MakeMap(Manifold a, Manifold b) -> Map

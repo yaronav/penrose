@@ -1,6 +1,0 @@
-{
-  "substance": "./half-adder.substance",
-  "style": ["./half-adder-color.style"],
-  "domain": "./logic-gates.domain",
-  "variation": "CauliflowerDeer97138"
-}

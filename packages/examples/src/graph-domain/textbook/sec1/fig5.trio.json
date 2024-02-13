@@ -1,6 +1,0 @@
-{
-  "substance": "./fig5.substance",
-  "style": ["../../directed-multigraph.style"],
-  "domain": "../../directed-multigraph.domain",
-  "variation": "ColumbineMosquito92625"
-}

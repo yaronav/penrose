@@ -1,3 +1,0 @@
-type Vertex
-type Link
-constructor Arc(Vertex u, Vertex v) -> Link

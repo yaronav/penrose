@@ -1,3 +1,0 @@
-Node n_i for i in [0, 100]
-
-Edge e_j := MakeEdge(n_0, n_j) for j in [1, 100]

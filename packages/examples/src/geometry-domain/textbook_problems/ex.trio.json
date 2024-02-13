@@ -1,6 +1,0 @@
-{
-  "substance": "./ex.substance",
-  "style": ["../euclidean.style"],
-  "domain": "../geometry.domain",
-  "variation": "WaterspoutFish94072"
-}

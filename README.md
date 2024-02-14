@@ -8,6 +8,7 @@ concepts. We aim to democratize the process of creating visual intuition.
 
 ## Usage
 
+changing text
 You can [try Penrose in your browser](https://penrose.cs.cmu.edu/try/index.html)
 without any installation. For a more detailed step-by-step introduction, check
 out our [tutorials](https://penrose.cs.cmu.edu/docs/tutorial/welcome). Or, for

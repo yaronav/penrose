@@ -99,30 +99,7 @@ jobs:
           path: |
             packages/examples/diagrams
             packages/examples/diagrams/.git
-
-      - name: Check for write permissions
-        id: check
-        uses: scherermichael-oss/action-has-permission@17f29510f1bf987b916c8cbb451566a56eed23f1
-        with:
-          required-permission: write
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - if: steps.check.outputs.has-permission
-        name: Push to target
-        working-directory: packages/examples/diagrams/
-        run: git push -f origin HEAD
-      - if: github.event_name == 'pull_request' && steps.check.outputs.has-permission
-        name: Comment on PR
-        uses: marocchino/sticky-pull-request-comment@v2
-        with:
-          message: |
-            # ± [Registry diff](${{ github.server_url }}/${{ github.repository }}/commit/${{ steps.commit.outputs.CI_COMMIT_SHA }})
-
-            ${{ env.REGISTRY_DIFF }}
-
-            # 📊 [Performance](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
-
-            ${{ env.REGISTRY_STATS }}
+  
 
   storybook:
     runs-on: ubuntu-latest

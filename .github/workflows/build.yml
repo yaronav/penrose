@@ -99,47 +99,7 @@ jobs:
           path: |
             packages/examples/diagrams
             packages/examples/diagrams/.git
-      - name: Record performance summary
-        working-directory: packages/examples/diagrams/
-        run: |
-          set -x
 
-          echo '# 📊 Performance' >> $GITHUB_STEP_SUMMARY
-          echo >> $GITHUB_STEP_SUMMARY
-          cat stats.md >> $GITHUB_STEP_SUMMARY
-
-          echo 'REGISTRY_STATS<<EOF' >> $GITHUB_ENV
-          cat stats.md >> $GITHUB_ENV
-          echo EOF >> $GITHUB_ENV
-
-          rm data.json stats.md
-      - name: Commit diagrams and generate diff summary
-        id: commit
-        working-directory: packages/examples/diagrams/
-        run: |
-          set -x
-
-          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git config --global user.name "$GITHUB_ACTOR"
-
-          git add .
-          git commit --allow-empty -m 'CI for ${{ github.event.pull_request.head.sha || github.sha }}'
-          echo "CI_COMMIT_SHA=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
-
-          echo '```' > diff.md
-          git --no-pager diff --name-status ci/refs/heads/main HEAD >> diff.md
-          echo '```' >> diff.md
-
-          echo '# ± Registry diff' >> $GITHUB_STEP_SUMMARY
-          echo >> $GITHUB_STEP_SUMMARY
-          cat diff.md >> $GITHUB_STEP_SUMMARY
-          echo >> $GITHUB_STEP_SUMMARY
-
-          echo 'REGISTRY_DIFF<<EOF' >> $GITHUB_ENV
-          cat diff.md >> $GITHUB_ENV
-          echo EOF >> $GITHUB_ENV
-
-          rm diff.md
       - name: Check for write permissions
         id: check
         uses: scherermichael-oss/action-has-permission@17f29510f1bf987b916c8cbb451566a56eed23f1
